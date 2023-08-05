@@ -4,7 +4,8 @@
 
 ## About
 
-This is my personalized version of the Catppuccin aesthetic for [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) (OMP), tailored specifically for Windows Powershell. Using the look and palette from the official [Catppuccin theme](https://ohmyposh.dev/docs/themes#catppuccin), I customized the segments to be more succinct while also providing more detail. I am still new to json files and Oh My Posh, so I will be iterating over the design as I continue to learn. The aesthetic should remain the same, however!
+This is my personalized version of the Catppuccin aesthetic for [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) (OMP), tailored specifically for Windows Powershell. Using the look and palette from the official [Catppuccin theme](https://ohmyposh.dev/docs/themes#catppuccin), I customized the segments to be more succinct while also providing more detail. I am still new to json files and Oh My Posh, so I will be iterating over the design as I continue to learn. The aesthetic should remain the same, however :)
+
 
 ![Example-1](Screenshots/Example-1.png)
 
@@ -13,7 +14,7 @@ This is my personalized version of the Catppuccin aesthetic for [Oh My Posh](htt
 ## Highlights
 
 - Python virtual environment support (read my installation instructions for how to remove the original (.venv) from Powershell)
-- Linked path locations for full directory locations and git repos.
+- Linked paths for full directory locations and git repos.
 - Git tracking icons to visualize pending file changes and more
 - Docker support (disclaimer: currently untested, but shouldn't have issues outside of a wonky color palette if anything)
 - Status code visualization to help errors go unmissed
