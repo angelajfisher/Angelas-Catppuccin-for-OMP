@@ -45,7 +45,7 @@
           "powerline_symbol": "\ue0b4",
           "foreground": "p:text",
           "background": "p:lavender",
-          "template": " {{ if .UpstreamURL }}{{ url .UpstreamIcon .UpstreamURL }} {{ end }}{{ .HEAD }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} ",
+          "template": " {{ if .UpstreamURL }}{{ url .UpstreamIcon .UpstreamURL }} {{ end }}{{ .HEAD }}{{ if .Working.Changed }} \uf044  {{ .Working.String }}{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} ",
           "properties": {
             "commit_icon": "\uf417 ",
             "fetch_status": true,
@@ -62,7 +62,7 @@
           "style": "powerline",
           "powerline_symbol": "\ue0b4",
           "foreground": "p:wight",
-          "background": "p:brightBlue",
+          "background": "p:blue",
           "template": " {{ .Context }}{{ if .Namespace }} :: {{ .Namespace }}{{ end }} "
         },
         {
@@ -97,16 +97,16 @@
   ],
   "secondary_prompt": {
     "background": "transparent",
-    "foreground": "p:os",
+    "foreground": "p:text",
     "template": "   \udb80\udd3e"
   },
   "transient_prompt": {
-      "foreground": "p:pink",
-      "template": "\uf114  {{ .Folder }}  󰄾 "
+    "foreground": "p:lavender",
+    "background": "transparent",
+    "template": "\ue0b3 \uf114 {{ .Folder }} \ue0b1  "
   },
   "palette": {
     "blue": "#8AADF4",
-    "brightBlue": "#8AADF4",
     "lavender": "#B7BDF8",
     "os": "#ACB0BE",
     "pink": "#F5BDE6",
