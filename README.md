@@ -22,6 +22,8 @@ This is my personalized version of the Catppucin aesthetic for [Oh My Posh](http
 
 Install [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) via its instructions.
 
+Ensure you install a [Nerd Font](https://www.nerdfonts.com/). OMP makes this simple, so follow its instructions [here](https://ohmyposh.dev/docs/installation/fonts) if you haven't done so already.
+
 Edit your powershell profile (`code $PROFILE`) to add the following:
 ```
 oh-my-posh init pwsh --config 'https://gitlab.com/angelajfisher/angelas-catppucin-for-omp/-/blob/main/angelas-catppucin.omp.json' | Invoke-Expression
@@ -36,7 +38,7 @@ Restart powershell and then you should be go to go! Enjoy!
 
 ### Matching My look
 
-If you install the theme and decide you want to dive even further into the Catppucin aesthetic, consider setting up [their Windows Terminal themes](https://github.com/catppuccin/windows-terminal)! The one in my screenshot is Catppuccin Macchiato. This way, your background and all of the colored text will match the OMP theme, too :)
+If you install the theme and decide you want to dive even further into the Catppucin aesthetic, consider setting up [their Windows Terminal themes](https://github.com/catppuccin/windows-terminal)! The one I'm using in my screenshot is Catppuccin Macchiato. This way, your background and all of the colored text will match this OMP theme, too :)
 
 
 ### Making Your Own Tweaks
