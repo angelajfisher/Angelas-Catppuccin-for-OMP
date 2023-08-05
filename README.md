@@ -1,14 +1,16 @@
-## Angela's Catppucin for Oh My Posh
+# Angela's Catppucin for Oh My Posh
 
+---
 
-### About
+## About
 
 This is my personalized version of the Catppucin aesthetic for [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) (OMP), tailored specifically for Windows Powershell. Using the look and palette from the official [Catppucin theme](https://ohmyposh.dev/docs/themes#catppuccin), I customized the segments to be more succinct while also providing more detail. I am still new to json files and Oh My Posh, so I will be iterating over the design as I continue to learn. The aesthetic should remain the same, however!
 
 ![Example-1](Screenshots/Example-1.png)
 
+---
 
-### Highlights
+## Highlights
 
 - Python virtual environment support (read my installation instructions for how to remove the original (.venv) from Powershell)
 - Linked path locations for full directory locations and git repos.
@@ -17,8 +19,9 @@ This is my personalized version of the Catppucin aesthetic for [Oh My Posh](http
 - Status code visualization to help errors go unmissed
 - Transient prompts to help keep track of command history
 
+---
 
-### Installation
+## Installation
 
 Install [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) via its instructions.
 
@@ -35,11 +38,13 @@ Alternatively, you can download the json file and point the config to your local
 
 Restart powershell and then you should be go to go! Enjoy!
 
+---
 
 ### Matching My look
 
 If you install the theme and decide you want to dive even further into the Catppucin aesthetic, consider setting up [their Windows Terminal themes](https://github.com/catppuccin/windows-terminal)! The one I'm using in my screenshot is Catppuccin Macchiato. This way, your background and all of the colored text will match this OMP theme, too :)
 
+---
 
 ### Making Your Own Tweaks
 
