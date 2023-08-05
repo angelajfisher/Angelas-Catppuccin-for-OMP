@@ -16,7 +16,7 @@
             "display_default": false,
             "fetch_version": false
           },
-          "template": " 󰌠 .venv"
+          "template": " \udb80\udf20 .venv"
         },
         {
           "type": "session",
@@ -25,7 +25,7 @@
           "powerline_symbol": "\ue0b4",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": " {{ if .SSHSession }}\ueba9 {{ end }}♥ {{ .UserName }} "
+          "template": " {{ if .SSHSession }}\ueba9 {{ end }}\u2665 {{ .UserName }} "
         },
         {
           "type": "path",
@@ -33,10 +33,10 @@
           "powerline_symbol": "\ue0b4",
           "foreground": "p:text",
           "background": "p:pink",
-          "template": "  {{ path .Path .Location }} ",
+          "template": " \uf114 {{ path .Path .Location }} ",
           "properties": {
             "style": "folder",
-            "home_icon": " "
+            "home_icon": "\uf015 "
           }
         },
         {
@@ -50,7 +50,7 @@
             "commit_icon": "\uf417 ",
             "fetch_status": true,
             "fetch_upstream_icon": true,
-            "branch_icon": "",
+            "branch_icon": "\ue725",
             "merge_icon": "\ue727 ",
             "rebase_icon": "\ue728 ",
             "revert_icon": "\uf0e2 ",
@@ -90,7 +90,7 @@
           "type": "text",
           "style": "plain",
           "foreground": "p:os",
-          "template": "   󰄾"
+          "template": "   \udb80\udd3e"
         }
       ]
     }
@@ -98,11 +98,11 @@
   "secondary_prompt": {
     "background": "transparent",
     "foreground": "p:os",
-    "template": "   󰄾"
+    "template": "   \udb80\udd3e"
   },
   "transient_prompt": {
       "foreground": "p:pink",
-      "template": "  {{ .Folder }}  󰄾 "
+      "template": "\uf114  {{ .Folder }}  󰄾 "
   },
   "palette": {
     "blue": "#8AADF4",
