@@ -11,6 +11,7 @@ This is my personalized version of the Catppucin aesthetic for [Oh My Posh](http
 ### Highlights
 
 - Python virtual environment support (read my installation instructions for how to remove the original (.venv) from Powershell)
+- Linked path locations for full directory locations and git repos.
 - Git tracking icons to visualize pending file changes and more
 - Docker support (disclaimer: currently untested, but shouldn't have issues outside of a wonky color palette if anything)
 - Status code visualization to help errors go unmissed
