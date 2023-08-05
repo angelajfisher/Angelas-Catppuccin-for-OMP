@@ -1,0 +1,117 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 2,
+  "final_space": true,
+  "console_title_template": "{{ .Shell }} in {{ .Folder }}",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "python",
+          "style": "plain",
+          "properties": {
+            "display_default": false,
+            "fetch_version": false
+          },
+          "template": " 󰌠 .venv"
+        },
+        {
+          "type": "session",
+          "background": "p:blue",
+          "foreground": "p:wight",
+          "powerline_symbol": "\ue0b4",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "template": " {{ if .SSHSession }}\ueba9 {{ end }}♥ {{ .UserName }} "
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b4",
+          "foreground": "p:text",
+          "background": "p:pink",
+          "template": "  {{ path .Path .Location }} ",
+          "properties": {
+            "style": "folder",
+            "home_icon": " "
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b4",
+          "foreground": "p:text",
+          "background": "p:lavender",
+          "template": " {{ if .UpstreamURL }}{{ url .UpstreamIcon .UpstreamURL }} {{ end }}{{ .HEAD }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} ",
+          "properties": {
+            "commit_icon": "\uf417 ",
+            "fetch_status": true,
+            "fetch_upstream_icon": true,
+            "branch_icon": "",
+            "merge_icon": "\ue727 ",
+            "rebase_icon": "\ue728 ",
+            "revert_icon": "\uf0e2 ",
+            "tag_icon": "\uf412 "
+          }
+        },
+        {
+          "type": "kubectl",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b4",
+          "foreground": "p:wight",
+          "background": "p:brightBlue",
+          "template": " {{ .Context }}{{ if .Namespace }} :: {{ .Namespace }}{{ end }} "
+        },
+        {
+          "type": "status",
+          "background": "transparent",
+          "foreground": "p:os",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b4",
+          "foreground_templates": [
+            "{{ if .Error }}p:error{{ end }}"
+          ],
+          "template": " {{ if eq .Code 0 }}OK\uf00c {{ else }}\uf071 {{ end }}",
+          "properties": {
+            "always_enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "newline": true,
+      "alignment": "left",
+      "type": "prompt",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "p:os",
+          "template": "   󰄾"
+        }
+      ]
+    }
+  ],
+  "secondary_prompt": {
+    "background": "transparent",
+    "foreground": "p:os",
+    "template": "   󰄾"
+  },
+  "transient_prompt": {
+      "foreground": "p:pink",
+      "template": "  {{ .Folder }}  󰄾 "
+  },
+  "palette": {
+    "blue": "#8AADF4",
+    "brightBlue": "#8AADF4",
+    "lavender": "#B7BDF8",
+    "os": "#ACB0BE",
+    "pink": "#F5BDE6",
+    "text": "#494D64",
+    "wight": "#FFFFFF",
+    "error": "#ED8796"
+  }
+}
