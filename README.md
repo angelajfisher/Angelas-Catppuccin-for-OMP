@@ -1,6 +1,6 @@
 # Angela's Catppucin for Oh My Posh
 
----
+
 
 ## About
 
@@ -34,7 +34,7 @@ oh-my-posh init pwsh --config 'https://gitlab.com/angelajfisher/angelas-catppuci
 $env:VIRTUAL_ENV_DISABLE_PROMPT = 1
 ```
 
-Alternatively, you can download the json file and point the config to your local copy. Be sure to include the virtual environment disabling line to avoid redundant (.venv) visualizationa in your prompt.
+Alternatively, you can download the json file and point the config to your local copy. Be sure to include the virtual environment disabling line to avoid redundant (.venv) visualizations in your prompt.
 
 Restart powershell and then you should be go to go! Enjoy!
 
