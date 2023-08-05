@@ -29,7 +29,7 @@ Ensure you install a [Nerd Font](https://www.nerdfonts.com/). OMP makes this sim
 
 Edit your powershell profile (`code $PROFILE`) to add the following:
 ```
-oh-my-posh init pwsh --config 'https://gitlab.com/angelajfisher/angelas-catppuccin-for-omp/-/blob/main/angelas-catppuccin.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'https://gitlab.com/angelajfisher/angelas-catppuccin-for-omp/-/raw/main/angelas-catppuccin.omp.json' | Invoke-Expression
 
 $env:VIRTUAL_ENV_DISABLE_PROMPT = 1
 ```
