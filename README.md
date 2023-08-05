@@ -23,7 +23,7 @@ This is my personalized version of the Catppuccin aesthetic for [Oh My Posh](htt
 
 ## Installation
 
-Install [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) via its instructions.
+Install [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) via [its instructions](https://ohmyposh.dev/docs/installation/windows).
 
 Ensure you install a [Nerd Font](https://www.nerdfonts.com/). OMP makes this simple, so follow its instructions [here](https://ohmyposh.dev/docs/installation/fonts) if you haven't done so already.
 
