@@ -3,7 +3,7 @@
 
 ### About
 
-This is my personalized version of the Catppucin aesthetic for [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) (OMP), tailored specifically for Windows Powershell. Using the look and palette from the official [Catppucin theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/catppuccin.omp.json), I customized the blocks to be more succinct while also providing more detail.
+This is my personalized version of the Catppucin aesthetic for [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) (OMP), tailored specifically for Windows Powershell. Using the look and palette from the official [Catppucin theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/catppuccin.omp.json), I customized the segments to be more succinct while also providing more detail. I am still new to json files and Oh My Posh, so I will be iterating over the design as I continue to learn. The aesthetic should remain the same, however!
 
 ![Example-1](Screenshots/Example-1.png)
 
@@ -41,8 +41,8 @@ If you install the theme and decide you want to dive even further into the Catpp
 
 ### Making Your Own Tweaks
 
-I know not everyone wants a heart next to their username and others may like the segments but not the color palette. Here's some quick instructions to anyone unfamiliar with OMP themes and/or json files.
+I know not everyone wants a heart next to their username and others may like the segments but not the color palette. Here's some quick instructions to anyone unfamiliar with OMP themes and/or json files. Of course, you will need your own copy of the json file in order to make these changes.
 
 To remove the heart next to the username, change line 28 to: `"template": " {{ if .SSHSession }}\ueba9 {{ end }}\u2665 {{ .UserName }} "`
 
-To change the color palette, change the hex values in the palette section at the bottom of the file to those of your colors of choice. No need to change the color names unless you feel comfortable doing so, as the hex values are the important part. If you change the names, you will have to alter all instances of those names within the file, of course.
+To make easy changes the color palette, change the hex values in the palette section at the bottom of the file to those of your colors of choice. If you feel more comfortable with tinkering, change the color names and their use cases!
