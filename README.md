@@ -3,7 +3,7 @@
 
 ### About
 
-This is my personalized version of the Catppucin aesthetic for [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) (OMP), tailored specifically for Windows Powershell. Using the look and palette from the official [Catppucin theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/catppuccin.omp.json), I customized the segments to be more succinct while also providing more detail. I am still new to json files and Oh My Posh, so I will be iterating over the design as I continue to learn. The aesthetic should remain the same, however!
+This is my personalized version of the Catppucin aesthetic for [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) (OMP), tailored specifically for Windows Powershell. Using the look and palette from the official [Catppucin theme](https://ohmyposh.dev/docs/themes#catppuccin), I customized the segments to be more succinct while also providing more detail. I am still new to json files and Oh My Posh, so I will be iterating over the design as I continue to learn. The aesthetic should remain the same, however!
 
 ![Example-1](Screenshots/Example-1.png)
 
