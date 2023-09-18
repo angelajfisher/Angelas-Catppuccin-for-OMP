@@ -45,6 +45,8 @@ Restart powershell and then you should be go to go! Enjoy!
 
 If you install the theme and decide you want to dive even further into the Catppuccin aesthetic, consider setting up [their Windows Terminal themes](https://github.com/catppuccin/windows-terminal)! The one I'm using in my screenshot is Catppuccin Macchiato. This way, your background and all of the colored text will match this OMP theme, too :)
 
+The Nerd Font I went with for my setup is SpaceMono. I recommend installing your font via the [OMP CLI](https://ohmyposh.dev/docs/installation/fonts).
+
 ---
 
 ### Making Your Own Tweaks
