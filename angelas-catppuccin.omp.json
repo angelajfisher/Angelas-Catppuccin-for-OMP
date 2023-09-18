@@ -16,7 +16,7 @@
             "display_default": false,
             "fetch_version": false
           },
-          "template": " \udb80\udf20 .venv"
+          "template": " \udb80\udf20 .venv "
         },
         {
           "type": "session",
